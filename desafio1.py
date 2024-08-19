@@ -41,7 +41,7 @@ num_alumnos = len(alumnos)
 
 num_materias = len(materias)
 
-matriz_notas = [[random.randint(1,10) for _ in range (num_materias)] for _ in range (num_alumnos)]
+matriz_notas = [[random.randint(1,10) for _ in range (num_materias)] for _ in range (num_alumnos)]  #lista por comprension 
 
 
 mostrar_matriz(matriz_notas, alumnos, materias)
